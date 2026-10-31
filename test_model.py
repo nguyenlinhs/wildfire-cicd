@@ -22,4 +22,4 @@ def test_model_inference_sample():
     assert result is not None, "Kết quả trả về rỗng"
     assert result.get("success") is True, f"Inference thất bại với lỗi: {result.get('error')}"
     assert "metrics" in result, "Thiếu metrics trong kết quả trả về"
-    assert "pred_image" in result, "Thiếu ảnh dự đoán trong kết quả trả về"
+    assert "img_pred" in result or "leaflet_pred" in result, "Thiếu ảnh dự đoán trong kết quả trả về"
