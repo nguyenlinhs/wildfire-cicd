@@ -1,0 +1,15 @@
+torch>=2.0.0
+torchvision>=0.15.0
+segmentation-models-pytorch==0.5.0
+timm==1.0.15
+huggingface_hub<1.0.0
+pydantic==2.10.6
+starlette<1.0.0
+fastapi<0.116.0
+gradio>=4.44.0
+numpy
+matplotlib
+h5py
+Pillow
+scipy
+tifffile
